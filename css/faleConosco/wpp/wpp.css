@@ -1,0 +1,25 @@
+.wpp{
+    display: flex;
+    cursor: pointer;
+    height: 200px;
+    max-width: 400px;
+    background-color: #09b109b4;
+    margin: 40px auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.wpp:hover{
+    background-color: #15a315d5;
+}
+.wpp a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+}
