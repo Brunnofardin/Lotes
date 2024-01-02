@@ -17,9 +17,9 @@ const conteudo={
 
     },
     Paragrafos:{
-        p1:"Teste parágrafo 1",
-        p2:"Teste parágrafo 2",
-        p3:"Teste parágrafo 3",
+        p1:"Parágrafo 1",
+        p2:"Parágrafo 2",
+        p3:"Parágrafo 3",
     }
 }
 // FUNAÇÃO PARA CRIAR CARDS PERSONALIZADOS DOS LOTES
@@ -50,7 +50,6 @@ function criarEl(qtd){
     }
     
 } 
-criarEl(3);
 // FUNÇÃO PARA EDITAR ELEMENTOS
 
 function editarImg(obj,link){
@@ -88,7 +87,7 @@ function ediatrParagrafo(obj,texto){
 }
 
 // CRIANDO ELEMENTOS
-
+criarEl(3);
 // EDITANDO CARD01
 editarImg(0,conteudo.Imgs.img1)
 editarTitle(0,conteudo.Titulos.t1)

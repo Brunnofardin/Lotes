@@ -6,6 +6,7 @@ main{
 }
 
 .card{
+    box-shadow: 1px 1px 3px #00000088;
     font-size: .9em;
     margin-top: 30px;
     display: flex;

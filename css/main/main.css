@@ -17,9 +17,9 @@ span{
     cursor: pointer;
     text-align: center;
     display: block;
-    width: 100%;
-    height: 100%;
     padding: 14px;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -29,12 +29,13 @@ body{
 }
 header{
     padding: 10px;
-    height: 40px;
+    height: 50px;
     display: flex;
     color: white;
     align-items: center;
     background-color: black;
     justify-content: center;
+    border-bottom: 2px solid white;
 }
 nav.menu_mobile{
     width: 100%;
@@ -66,13 +67,27 @@ nav.menu_pc{
 main{
     margin-bottom: 63px;
 }
-footer{
+.fixar{
+    top: 0;
+    width: 100%;
     position: fixed;
+    transition: 1s;
+    animation-timing-function: ease;
+    border-bottom: 2px solid white;
+}
+footer{
     bottom: 0;
     width: 100%;
     padding: 10px;
+    color: white;
     height: 40px;
+    position: fixed;
+    text-align: center;
     background-color: black;
+}
+footer a{
+    color: white;
+    font-weight: bolder;
 }
 
 

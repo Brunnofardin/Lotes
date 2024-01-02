@@ -1,19 +1,20 @@
-.wpp{
+@media screen and (max-width:490px){
+    .redes{
+        max-height: 200px;
+    }
+}
+.redes{
+    width: 90%;
     display: flex;
     cursor: pointer;
-    height: 200px;
-    max-width: 400px;
-    background-color: #09b109b4;
+    height: 320px;
     margin: 40px auto;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
     border: 2px solid black;
 }
-.wpp:hover{
-    background-color: #15a315d5;
-}
-.wpp a{
+.redes a{
     display: flex;
     height: 100%;
     width: 100%;
@@ -22,4 +23,16 @@
     font-weight: bolder;
     text-decoration: none;
     justify-content: center;
+}
+.wpp{
+    background-color: #09b109b4;
+}
+.wpp:hover{
+    background-color: #15a315d5;
+}
+.insta{
+    background-image: linear-gradient(to right,#ff0000cf,orange,#5050ff,#ff5874);
+}
+.insta:hover{
+    background-image: linear-gradient(to right,#c00707cf,#c38107,#5050ff,#cd6576);
 }
